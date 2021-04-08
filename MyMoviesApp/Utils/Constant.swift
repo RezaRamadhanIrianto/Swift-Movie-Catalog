@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Constants {
+    static let apiKey = ""
+    static let baseUrl = "https://api.themoviedb.org/3"
+    static let imageBaseUrl = "https://image.tmdb.org/t/p/w500"
+    
+}

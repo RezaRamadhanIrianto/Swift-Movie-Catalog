@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct ErrorResponse: Decodable {
+    var status_message: String?
+    var status_code: Int?
+}
